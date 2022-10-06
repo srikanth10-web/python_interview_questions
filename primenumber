@@ -1,0 +1,9 @@
+#prime number
+def is_prime(n1):
+  if n1>1:
+    for num in range(2,n1):
+      if n1%num==0:
+        return "not prime number"
+      return "it is a prime"
+  return "not a prime"
+print(is_prime(13))
